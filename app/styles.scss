@@ -3,22 +3,47 @@
 
 body {
     font-family: 'Lato', -apple-system, Sans-Serif;
+    text-align: center;
+    font-size: 125%
 }
 
-.frontpage {
-  padding-top: 20pt;
-  text-align: center;
+h1, h2 {
+    text-transform: lowercase;
+}
 
+h1 {
+    font-size: 52pt;
+    line-height: 60pt;
+    margin-bottom: 0;
+}
+
+h3 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+article {
+    max-width: 75ch;
+    margin: 0 auto;
+}
+
+ul {
+    text-align: left;
+    margin-top: 0;
+}
+
+li {
+    line-height: 150%;
+}
+
+
+.frontpage {
   a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
   }
 
   h1 {
-    font-size: 52pt;
-    text-transform: lowercase;
-    display: inline;
-    line-height: 60pt;
     .big {
         font-size: 100pt;
         display: block;
@@ -27,7 +52,6 @@ body {
   }
 
   h2 {
-    text-transform: lowercase;
     font-variant: small-caps;
     font-size: 100pt;
     display: inline;
