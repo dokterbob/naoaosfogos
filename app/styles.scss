@@ -1,39 +1,53 @@
 @import "../node_modules/normalize.css/normalize.css";
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+$text-width: 60ch;
+
 body {
     font-family: 'Lato', -apple-system, Sans-Serif;
     text-align: center;
-    font-size: 125%
+    font-size: 110%
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-transform: lowercase;
+    margin-bottom: 0;
 }
 
 h1 {
     font-size: 52pt;
     line-height: 60pt;
-    margin-bottom: 0;
 }
 
 h3 {
     text-align: left;
-    margin-bottom: 0;
+    text-transform: none;
 }
 
 article {
-    max-width: 75ch;
+    max-width: $text-width;
     margin: 0 auto;
+    background-color: #F5F5F5;
+    border-radius: 5pt;
+    padding-bottom: 1pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-top: 0;
+    margin-bottom: 16pt;
 }
 
 ul {
     text-align: left;
-    margin-top: 0;
+    margin-top: 2pt;
 }
 
 li {
     line-height: 150%;
+}
+
+img {
+    padding-top: 6pt;
+    max-width: $text-width;
 }
 
 
